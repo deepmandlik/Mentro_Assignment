@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.circle {
+  position: absolute;
+  width: 1196px;
+  height: 1140px;
+  left: 357px;
+  top: -710px;
+  background: #c5f8c7;
+  border-radius: 50%;
+  z-index: -10;
+}
+
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: 50px;
+}
+
